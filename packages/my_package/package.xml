@@ -1,0 +1,11 @@
+<package>
+  <name>my_package</name>
+  <version>0.1.0</version>
+  <description>
+  This package is a subscriber for images from Duckiebot and to analyze color.
+  </description>
+  <maintainer email="xisong@student.ethz.ch">Xiao'ao Song</maintainer>
+  <license>None</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>

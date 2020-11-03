@@ -1,0 +1,16 @@
+<launch>
+<group ns="red">
+  <node pkg="my_package" type="my_node_subscriber.py" name="my_node_red" output="screen">
+  		<param name="color" type="str" value="red"/>
+  </node>
+
+</group>
+
+<group ns="yellow">
+  
+  <node pkg="my_package" type="my_node_subscriber.py" name="my_node_yellow" output="screen" clear_params="true">
+  		<param name="color" type="str" value="yellow"/>
+  </node>
+</group>
+
+</launch>
