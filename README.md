@@ -21,4 +21,4 @@ Image stream with color detector is published.
 
 
 A sample debug image for the yellow color detector is shown here:
-(https://github.com/lineojcd/rh4-exe21b/testimgdector.png)
+![testimgdector](https://github.com/lineojcd/rh4-exe21b/testimgdector.png)
