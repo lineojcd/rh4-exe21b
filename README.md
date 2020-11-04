@@ -21,4 +21,4 @@ Image stream with color detector is published.
 
 
 A sample debug image for the yellow color detector is shown here:
-(https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/ubuntu_lts_204.png)
+(https://github.com/lineojcd/rh4-exe21b/testimgdector.png)
