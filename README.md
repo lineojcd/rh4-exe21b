@@ -15,6 +15,10 @@ dts devel build -f --arch amd64
 
 ### 3. Make sure docker image from rh4-exe21a is running. Afterwards, run rh4-exe21b docker image with the following options.
 ```bash
-docker run -it --rm -e ROS_MASTER_URI=http://[MY_ROBOT_IP]:11311/ -e ROS_IP=http://[MY_LAPTOP_IP]:11311/ --net host duckietown/rh4-exe21b:latest-amd64
+docker run -it --rm -e ROS_MASTER_URI=http://[MY_ROBOT_IP]:11311/ -e ROS_IP=http://[MY_LAPTOP_IP]:11311/ -v [PATH_ON_YOUR_LAPTOP]:[PATH_TO_BAG_FOLDER_FROM_CONTAINER] --net host duckietown/rh4-exe21b:latest-amd64
 ```
 Image stream with color detector is published.
+
+
+A sample debug image for the yellow color detector is shown here:
+(https://github.com/lineojcd/Robotics-Simulations-Optimization/blob/master/AirSim%20tutorial/src/ubuntu_lts_204.png)
